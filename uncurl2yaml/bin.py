@@ -4,7 +4,7 @@ import sys
 from collections import OrderedDict
 
 import xerox
-from api import parse
+from .api import parse
 
 import yaml
 

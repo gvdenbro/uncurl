@@ -2,15 +2,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='uncurl',
-    version='0.0.8',
-    description='A library to convert curl requests to python-requests.',
-    author='Steve Pulec',
-    author_email='spulec@gmail',
-    url='https://github.com/spulec/uncurl',
+    name='uncurl2yaml',
+    version='0.0.3',
+    description='A library to convert curl requests to yaml.',
+    author='Gregory Vandenbroucke',
+    author_email='gvdenbro@gmail',
+    url='https://github.com/gvdenbro/uncurl',
     entry_points={
         'console_scripts': [
-            'uncurl = uncurl.bin:main',
+            'uncurl2yaml = uncurl2yaml.bin:main',
         ],
     },
     install_requires=['xerox', 'six'],

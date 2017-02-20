@@ -1,6 +1,6 @@
 from mock import patch
 
-from uncurl.bin import main
+from uncurl2yaml.bin import main
 
 
 @patch("uncurl.bin.sys")
